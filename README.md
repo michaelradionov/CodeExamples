@@ -8,4 +8,4 @@ Here we have a tiny class with one method which I wrote to handle incoming Mailg
 This piece is a little bit more complicated because it is based on Laravel routing system which is really great BTW. So here we got 3 roles: guest, authenticated user and paid student.
 - Guests can do nothing.
 - Registered users can see lessons listing, but when they try to proceed to single lessons page they are getting redirected to Wait4Webinar page. This is a marketing trick.
-- Students (paid members) can visit first lessons page with all that stuff (slides, practice, testing, webinar). But if they want to get to the any other lesson they must complete all the previous lesson's practices and testings. I believe you get the idea.
+- Students (paid members) can visit first lesson's page with all its stuff (slides, practice, testing, webinar). But if they want to get to any other lesson they must complete all the previous lesson's practices and testings. I believe you got the idea.
