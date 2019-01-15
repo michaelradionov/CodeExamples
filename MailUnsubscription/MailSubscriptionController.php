@@ -19,8 +19,6 @@ class MailSubscriptionController extends Controller
         $unsubEmail = $request->input('event-data')['recipient'];
         $unsubReason = $request->input('event-data')['event'];
 
-        $response = [];
-
         // No user in request
         if(!$unsubEmail) {
             $response['output'] = 'No data in request';
